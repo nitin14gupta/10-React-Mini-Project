@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    max-width: 1280px;
+    background-color: #ffffff;
+    padding: 0.5rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.login-btn{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.5rem;
+    border: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}

@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem auto;
+    max-width: 1200px;
+    height: 613px;
+    width: 1125px;
+}
+
+.main-cnt{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-cnt h1 {
+     font-size: 4rem;
+     margin: 0;
+}
+
+.main-cnt p{
+    font-size: 1.2rem;
+}
+
+.header-btn button{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    margin: 0.2rem 0.8rem;
+}
+
+.logo-social p{
+font-size: 1rem;
+font-weight: light;
+}
+
+.logo-social .img-shop img{
+    margin:0.2rem 0.4rem;
+}
+
+.header-img img{
+    margin: 4rem 0rem 0rem 4rem;
+    height: 487px;
+    width: 530px;
+
+}
